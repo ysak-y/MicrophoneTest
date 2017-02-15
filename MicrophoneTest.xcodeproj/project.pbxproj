@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C46E8061E50507D00C219AC /* pipipi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4C46E8051E50507D00C219AC /* pipipi.mp3 */; };
+		4C46E80A1E50519200C219AC /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C46E8091E50519200C219AC /* MyViewController.swift */; };
 		4CAAEAC21E4B616B005BA028 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAAEAC11E4B616B005BA028 /* AppDelegate.swift */; };
 		4CAAEAC41E4B616B005BA028 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAAEAC31E4B616B005BA028 /* ViewController.swift */; };
 		4CAAEAC71E4B616B005BA028 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CAAEAC51E4B616B005BA028 /* Main.storyboard */; };
@@ -14,6 +16,12 @@
 		4CAAEACC1E4B616B005BA028 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CAAEACA1E4B616B005BA028 /* LaunchScreen.storyboard */; };
 		4CAAEAD71E4B616B005BA028 /* MicrophoneTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAAEAD61E4B616B005BA028 /* MicrophoneTestTests.swift */; };
 		4CAAEAE21E4B616B005BA028 /* MicrophoneTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAAEAE11E4B616B005BA028 /* MicrophoneTestUITests.swift */; };
+		4CAAEAF21E4C10B7005BA028 /* SnowBoyWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4CAAEAF11E4C10B7005BA028 /* SnowBoyWrapper.mm */; };
+		4CAAEAF81E4C115A005BA028 /* libsnowboy-detect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CAAEAF51E4C115A005BA028 /* libsnowboy-detect.a */; };
+		4CAAEAF91E4C115A005BA028 /* common.res in Resources */ = {isa = PBXBuildFile; fileRef = 4CAAEAF61E4C115A005BA028 /* common.res */; };
+		4CAAEAFA1E4C115A005BA028 /* snowboy.umdl in Resources */ = {isa = PBXBuildFile; fileRef = 4CAAEAF71E4C115A005BA028 /* snowboy.umdl */; };
+		4CAAEAFD1E4C3326005BA028 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CAAEAFC1E4C3326005BA028 /* Accelerate.framework */; };
+		4CB4FB6F1E4DB62500BBE860 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB4FB6E1E4DB62500BBE860 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C46E8051E50507D00C219AC /* pipipi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pipipi.mp3; sourceTree = "<group>"; };
+		4C46E8091E50519200C219AC /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyViewController.swift; path = ../MyViewController.swift; sourceTree = "<group>"; };
 		4CAAEABE1E4B616B005BA028 /* MicrophoneTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicrophoneTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CAAEAC11E4B616B005BA028 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CAAEAC31E4B616B005BA028 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,15 @@
 		4CAAEADD1E4B616B005BA028 /* MicrophoneTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicrophoneTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CAAEAE11E4B616B005BA028 /* MicrophoneTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrophoneTestUITests.swift; sourceTree = "<group>"; };
 		4CAAEAE31E4B616B005BA028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CAAEAF01E4C10B7005BA028 /* MicrophoneTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MicrophoneTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		4CAAEAF11E4C10B7005BA028 /* SnowBoyWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SnowBoyWrapper.mm; sourceTree = "<group>"; };
+		4CAAEAF31E4C10D1005BA028 /* SnowBoyWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnowBoyWrapper.h; sourceTree = "<group>"; };
+		4CAAEAF41E4C115A005BA028 /* snowboy-detect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "snowboy-detect.h"; sourceTree = "<group>"; };
+		4CAAEAF51E4C115A005BA028 /* libsnowboy-detect.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libsnowboy-detect.a"; sourceTree = "<group>"; };
+		4CAAEAF61E4C115A005BA028 /* common.res */ = {isa = PBXFileReference; lastKnownFileType = file; path = common.res; sourceTree = "<group>"; };
+		4CAAEAF71E4C115A005BA028 /* snowboy.umdl */ = {isa = PBXFileReference; lastKnownFileType = file; path = snowboy.umdl; sourceTree = "<group>"; };
+		4CAAEAFC1E4C3326005BA028 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		4CB4FB6E1E4DB62500BBE860 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +73,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CB4FB6F1E4DB62500BBE860 /* AVFoundation.framework in Frameworks */,
+				4CAAEAFD1E4C3326005BA028 /* Accelerate.framework in Frameworks */,
+				4CAAEAF81E4C115A005BA028 /* libsnowboy-detect.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +103,7 @@
 				4CAAEAD51E4B616B005BA028 /* MicrophoneTestTests */,
 				4CAAEAE01E4B616B005BA028 /* MicrophoneTestUITests */,
 				4CAAEABF1E4B616B005BA028 /* Products */,
+				4CAAEAFB1E4C3326005BA028 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +120,21 @@
 		4CAAEAC01E4B616B005BA028 /* MicrophoneTest */ = {
 			isa = PBXGroup;
 			children = (
+				4C46E8091E50519200C219AC /* MyViewController.swift */,
 				4CAAEAC11E4B616B005BA028 /* AppDelegate.swift */,
+				4CAAEAF41E4C115A005BA028 /* snowboy-detect.h */,
+				4CAAEAF51E4C115A005BA028 /* libsnowboy-detect.a */,
+				4CAAEAF61E4C115A005BA028 /* common.res */,
+				4CAAEAF71E4C115A005BA028 /* snowboy.umdl */,
 				4CAAEAC31E4B616B005BA028 /* ViewController.swift */,
+				4CAAEAF31E4C10D1005BA028 /* SnowBoyWrapper.h */,
+				4CAAEAF11E4C10B7005BA028 /* SnowBoyWrapper.mm */,
 				4CAAEAC51E4B616B005BA028 /* Main.storyboard */,
+				4C46E8051E50507D00C219AC /* pipipi.mp3 */,
 				4CAAEAC81E4B616B005BA028 /* Assets.xcassets */,
 				4CAAEACA1E4B616B005BA028 /* LaunchScreen.storyboard */,
 				4CAAEACD1E4B616B005BA028 /* Info.plist */,
+				4CAAEAF01E4C10B7005BA028 /* MicrophoneTest-Bridging-Header.h */,
 			);
 			path = MicrophoneTest;
 			sourceTree = "<group>";
@@ -123,6 +155,15 @@
 				4CAAEAE31E4B616B005BA028 /* Info.plist */,
 			);
 			path = MicrophoneTestUITests;
+			sourceTree = "<group>";
+		};
+		4CAAEAFB1E4C3326005BA028 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CB4FB6E1E4DB62500BBE860 /* AVFoundation.framework */,
+				4CAAEAFC1E4C3326005BA028 /* Accelerate.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +234,7 @@
 				TargetAttributes = {
 					4CAAEABD1E4B616A005BA028 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					4CAAEAD11E4B616B005BA028 = {
@@ -232,9 +274,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CAAEAFA1E4C115A005BA028 /* snowboy.umdl in Resources */,
+				4C46E8061E50507D00C219AC /* pipipi.mp3 in Resources */,
 				4CAAEACC1E4B616B005BA028 /* LaunchScreen.storyboard in Resources */,
 				4CAAEAC91E4B616B005BA028 /* Assets.xcassets in Resources */,
 				4CAAEAC71E4B616B005BA028 /* Main.storyboard in Resources */,
+				4CAAEAF91E4C115A005BA028 /* common.res in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +305,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CAAEAC41E4B616B005BA028 /* ViewController.swift in Sources */,
+				4CAAEAF21E4C10B7005BA028 /* SnowBoyWrapper.mm in Sources */,
+				4C46E80A1E50519200C219AC /* MyViewController.swift in Sources */,
 				4CAAEAC21E4B616B005BA028 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,10 +459,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				INFOPLIST_FILE = MicrophoneTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MicrophoneTest",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = yoshiaki.MicrophoneTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MicrophoneTest/MicrophoneTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -424,10 +479,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				INFOPLIST_FILE = MicrophoneTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MicrophoneTest",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = yoshiaki.MicrophoneTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MicrophoneTest/MicrophoneTest-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -505,6 +567,7 @@
 				4CAAEAE81E4B616B005BA028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CAAEAE91E4B616B005BA028 /* Build configuration list for PBXNativeTarget "MicrophoneTestTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +576,7 @@
 				4CAAEAEB1E4B616B005BA028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CAAEAEC1E4B616B005BA028 /* Build configuration list for PBXNativeTarget "MicrophoneTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +585,7 @@
 				4CAAEAEE1E4B616B005BA028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
